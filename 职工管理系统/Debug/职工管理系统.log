@@ -1,0 +1,12 @@
+﻿  main.cpp
+  workerManage.cpp
+  正在生成代码...
+employee.obj : error LNK2005: "public: __thiscall Worker::Worker(void)" (??0Worker@@QAE@XZ) 已经在 boss.obj 中定义
+employee.obj : error LNK2005: "public: __thiscall Worker::~Worker(void)" (??1Worker@@QAE@XZ) 已经在 boss.obj 中定义
+manager.obj : error LNK2005: "public: __thiscall Worker::Worker(void)" (??0Worker@@QAE@XZ) 已经在 boss.obj 中定义
+manager.obj : error LNK2005: "public: __thiscall Worker::~Worker(void)" (??1Worker@@QAE@XZ) 已经在 boss.obj 中定义
+workerManage.obj : error LNK2005: "public: __thiscall Worker::Worker(void)" (??0Worker@@QAE@XZ) 已经在 boss.obj 中定义
+workerManage.obj : error LNK2005: "public: __thiscall Worker::~Worker(void)" (??1Worker@@QAE@XZ) 已经在 boss.obj 中定义
+main.obj : error LNK2005: "public: __thiscall Worker::Worker(void)" (??0Worker@@QAE@XZ) 已经在 boss.obj 中定义
+main.obj : error LNK2005: "public: __thiscall Worker::~Worker(void)" (??1Worker@@QAE@XZ) 已经在 boss.obj 中定义
+E:\AllProjects\CppProjects\职工管理系统\Debug\职工管理系统.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
